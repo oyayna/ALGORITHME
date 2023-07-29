@@ -12,17 +12,17 @@ int main()
 void ReplaceAll(char string[MAX_SIZE], char str[MAX_SIZE], char str_replace[MAX_SIZE])
 {
     int len_string = 0;
-    while (string[len_string] != 0)
+    while (string[len_string] != '\0')
     {
         len_string++;
     }
     int len_str = 0;
-    while (str[len_str] != 0)
+    while (str[len_str] != '\0')
     {
         len_str++;
     }
     int len_str_replace = 0;
-    while (str_replace[len_str_replace] != 0)
+    while (str_replace[len_str_replace] != '\0')
     {
         len_str_replace++;
     }
@@ -97,7 +97,7 @@ void ReplaceAll(char string[MAX_SIZE], char str[MAX_SIZE], char str_replace[MAX_
             *(TexT + i) = string[i];
         }
         int len_TexT = 0;
-        while (TexT[len_TexT] != 0)
+        while (TexT[len_TexT] != '\0')
         {
             len_TexT++;
         }
