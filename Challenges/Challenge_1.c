@@ -1,3 +1,13 @@
+// description
+/*
+The second exercise
+Declare a function named ReplaceAll,Her idea is to search the text for a partial(word or phrase)specified and replaced by another part.
+When summoned, we must pass three texts to her. The first represents plain text, the second represents the part that we want to search for, and the third represents the part that we want to put in place of the second part.
+In the end, a copy of the first text must be returned after the part that we search for has been replaced with the part that we want to put in its place.
+Then try this function in the program.
+
+Example: using the function ReplaceAll() We can switch every word "cat" present in the text "I like cats. I have one cat." by word dog And then you will return to us the text "I like dogs. I have one dog." .
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 1000
