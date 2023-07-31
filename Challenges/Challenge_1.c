@@ -136,6 +136,11 @@ void ReplaceAll(char string[MAX_SIZE], char str[MAX_SIZE], char str_replace[MAX_
                                 int q = 1;
                                 for (int b = len_TexT; b >= 0; b--)
                                 {
+                                    if (string[len_string] == TexT[i + p])
+                                    {
+                                        len_TexT++;
+                                        break;
+                                    }
                                     v = TexT[b];
                                     TexT[b] = TexT[len_TexT - q];
                                     TexT[len_TexT - q] = v;
